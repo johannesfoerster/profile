@@ -1,0 +1,109 @@
+
+html{
+  background: linear-gradient(to bottom, rgba(200, 200, 200, 0.52), rgba(200, 200, 200, 0.73)), url(https://www.chronik-der-mauer.de/cache/images/4/174634-3x2-chronik984.jpg?9CD85) no-repeat
+    center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.circle{
+ border-radius: 50%;
+}
+h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgba(200, 200, 200);
+  font-weight: 900;
+  font-size: 30px;
+  letter-spacing: 15px;
+}
+.card{
+  padding: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 220px;
+  margin-left: 220px;
+  font-weight: lighter;
+  text-align: center;
+  border: white;
+  background:rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+}
+.row{
+  padding: 50px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 220px;
+  margin-left: 220px;
+  font-weight: lighter;
+  text-align: center;
+  border: white;
+  background:rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+}
+
+h2 {
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(250, 250, 250);
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color:rgb(200, 200, 200);
+  font-size: 20px;
+}
+a {
+  color: rgb(127, 187, 237);
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(70,70, 70);
+}
+.footer {
+  padding: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 220px;
+  margin-left: 220px;
+  border: white;
+  background:rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.9);
+}
+
+.footer a {
+  color:rgb(52, 93, 126);
+  font-size: 15px;
+}
+.footer a:hover {
+  color: black;
+}
+ li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+}
+ul{
+  padding: 0;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
